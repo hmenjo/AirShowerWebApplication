@@ -8,6 +8,15 @@
 2. **シミュレーション出力の解析。** 未着手です。
 3. **解析結果を表示する Web アプリケーション。** 未着手です。
 
+## セットアップ
+
+- GitHubからソースコードを取得
+```
+git clone git@github.com:hmenjo/AirShowerWebApplication.git 
+```
+- COSMOSXのインストール
+
+
 ## ディレクトリ
 
 | パス | 内容 |

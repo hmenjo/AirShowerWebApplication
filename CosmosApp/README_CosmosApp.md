@@ -4,6 +4,39 @@ COSMOS で空気シャワーを 1 イベントだけシミュレーションし�
 
 フォーマット名はルートの属性 `format` に入り、現在は `cosmos-airshower-v2` です。
 
+## 事前準備
+
+### COSMOSライブラリの再コンパイル
+このシミュレーションでは、複数の変数を粒子トラッキング内で伝搬させるためにCOSMOSライブラリ自体を一部が必要。変更後に再コンパイルが必要になります。
+
+```
+cp -f CosmosApp/cosmos_mod/Ztrack.h (Your-cosmosX-path)/Cosmos/cosmos/
+cd (Your-cosmosX-path)
+rm -f build/cosmosx 
+./Scrpt/CompileLibraryByCMake.sh
+```
+
+### Fortran用 HDF5 ライブラリのインストール
+
+- MacBook(homebrew)の場合
+```
+brew install hdf5
+```
+
+- Linuxの場合
+```
+sudo dnf install epel-release -y
+sudo dnf install hdf5-devel hdf5-fortran-devel -y
+```
+
+### Cosmos Applicationのコンパイル
+
+```
+cd (Your-cosmosX-path)
+./Scrpt/CompileExampleByCMake.sh  (your-repository-path)/CosmosApp/src/
+```
+
+
 ## ディレクトリ
 
 作業ディレクトリは `CosmosApp/src` です。
