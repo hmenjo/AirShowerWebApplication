@@ -1,0 +1,78 @@
+temp*.f
+temp*.f90
+tempvect*
+*.mp4
+*.key
+*.cre8
+magSun*
+
+lib/
+lib/*
+*~
+*.o
+*.mod
+
+# CMake 
+CMakeCache.txt
+CMakeFiles
+
+# Compiled Object files
+# *.slo
+# *.lo
+
+# *.obj
+core.*
+
+# Precompiled Headers
+# *.gch
+# *.pch
+
+# Compiled Dynamic libraries
+# *.so
+# *.dylib
+# *.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+# *.lai
+# *.la
+
+*.a
+
+# *.lib
+
+# Executables
+# *.exe
+
+*.out
+
+# *.app
+
+# mac
+.DS_Store
+
+tmp/*
+
+#cmake build directory
+build/
+build/*
+
+#cosmos trace file
+trace*
+
+#cosmos binary file
+cosmosLinux*
+cosmosMac*
+cosmosPC*
+cosmosMPI*
+
+#cosmos random seed
+Seed
+
+#output
+*.log
+*.out
+*.h5
+output/ 

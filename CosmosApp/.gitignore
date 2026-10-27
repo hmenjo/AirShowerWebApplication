@@ -1,0 +1,98 @@
+temp*.f
+temp*.f90
+tempvect*
+*.mp4
+*.key
+*.cre8
+magSun*
+
+lib/
+lib/*
+*~
+*.o
+*.mod
+
+# CMake 
+CMakeCache.txt
+CMakeFiles
+
+# Compiled Object files
+# *.slo
+# *.lo
+
+# *.obj
+core.*
+
+# Precompiled Headers
+# *.gch
+# *.pch
+
+# Compiled Dynamic libraries
+# *.so
+# *.dylib
+# *.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+# *.lai
+# *.la
+
+*.a
+
+# *.lib
+
+# Executables
+# *.exe
+
+*.out
+
+# *.app
+
+# mac
+.DS_Store
+
+tmp/*
+
+#cmake build directory
+build/
+build/*
+
+#cosmos trace file
+trace*
+
+#cosmos binary file
+cosmosLinux*
+cosmosMac*
+cosmosPC*
+cosmosMPI*
+
+#cosmos random seed
+Seed
+
+#cosmos config file
+site.config
+Cosmos/site.config
+LibLoft/site.config
+*/site.config
+*/site.config*
+#QGSJET2 data file
+#  qgsdat*  --> next lines
+qgsdat-II-03.ascii
+#qgsdat-II-04
+qgsjetIII.dat
+qgsdat-III-01
+
+#manual
+Doc/manual/_build/
+Doc/manual/_build/*
+
+#tex
+*.dvi
+*.aux
+*.fdb_latexmk
+*.fls
+*.texbkup
+*.synctex*
+*.log
